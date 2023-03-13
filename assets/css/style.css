@@ -1747,3 +1747,22 @@ textarea.form-input::-webkit-resizer { display: none; }
 		stroke: hsla(var(--hue),10%,90%,0.1);
 	}
 }
+
+/* prelaoder */
+
+#prealoader{
+  background: #000000 url(/assets/images/loader.gif) no-repeat center center; 
+  height: 100%;
+  background-size:35% ;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  position:fixed;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+
+}
+
