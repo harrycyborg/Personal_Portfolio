@@ -1714,40 +1714,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 
-
-/* preloader */
-
-.pl,
-.pl__worm {
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-}
-.pl {
-	animation-name: bump;
-	animation-timing-function: linear;
-	width: 8em;
-	height: 8em;
-}
-.pl__ring {
-	stroke: hsla(var(--hue),10%,10%,0.1);
-	transition: stroke 0.3s;
-}
-.pl__worm {
-	animation-name: worm;
-	animation-timing-function: cubic-bezier(0.42,0.17,0.75,0.83);
-}
-
-/* Dark theme */
-@media (prefers-color-scheme: dark) {
-	:root {
-		--bg: hsl(var(--hue),10%,10%);
-		--fg: hsl(var(--hue),10%,90%);
-	}
-	.pl__ring {
-		stroke: hsla(var(--hue),10%,90%,0.1);
-	}
-}
-
 /* prelaoder */
 
 #prealoader{
