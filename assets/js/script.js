@@ -121,6 +121,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
+
 // preloader 
 
 var loader=document.getElementById("prealoader");
