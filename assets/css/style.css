@@ -1123,13 +1123,35 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 
+ @media (min-width: 375px) {
 
+  /**
+   * client
+   */
+
+  .Certificate-item { min-width: calc(33.33% - 10px); }
+
+
+
+  /**
+   * #PORTFOLIO, BLOG 
+   */
+
+  .project-img,
+  .blog-banner-box { height: auto; }
+
+  /* ASIDE */
+
+  .contact-info a{
+    font-size: 14.8px;
+  }
+
+}
 
 
 /**
  * responsive larger than 580px screen
  */
-
 @media (min-width: 580px) {
 
   /**
