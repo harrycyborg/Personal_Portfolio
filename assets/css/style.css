@@ -1739,7 +1739,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 /* prelaoder */
 
 #prealoader{
-  background: #000000 url(/assets/images/loader.gif) no-repeat center center; 
+  background: #000000 url(./assets/images/loader.gif) no-repeat center center; 
   height: 100%;
   background-size:35% ;
   width: 100%;
