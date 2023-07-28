@@ -37,8 +37,8 @@
   --jet: hsl(120, 71%, 50%);
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(0, 3%, 14%);
-  --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(0, 0%, 5%);
+  --eerie-black-2: linear-gradient(115deg, #1d0b31, #4d1946, #7f285c, #b33773);
+  --smoky-black:linear-gradient(190deg, #15213f, #3d2a48, #603352, #823b5b);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(194, 100%, 50%);
@@ -48,6 +48,8 @@
   --bittersweet-shimmer: hsl(310, 48%, 44%);
   --jet-light: hsla(125, 100%, 36%, 0.534);
   --blue: hsl(207, 100%, 44%) 3%;
+
+  
 
   /**
    * typography
@@ -1739,7 +1741,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 /* prelaoder */
 
 #prealoader{
-  background: #000000 url(/assets/images/loader.gif) no-repeat center center; 
+  background: #000000 url(loader.gif) no-repeat center center; 
   height: 100%;
   background-size:35% ;
   width: 100%;
